@@ -101,7 +101,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/common
 
 # Versioning System
-ANDROID_VERSION = 5.01
+ANDROID_VERSION = 5.0.1
 DU_VERSION = v9.0
 
 ifndef DU_BUILD_TYPE
