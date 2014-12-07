@@ -120,4 +120,4 @@ DU_MOD_VERSION := DU_$(DU_BUILD)_$(ANDROID_VERSION)_$(shell date -u +%Y%m%d-%H%M
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
     ro.du.version=$(DU_VERSION) \
-    ro.modversion=$(DU_BUILD_TYPE)-$(DU_VERSION) \
+    ro.mod.version=$(DU_BUILD_TYPE)-v9.0 \
